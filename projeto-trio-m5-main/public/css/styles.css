@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5f0;
+    color: #000000;
+    list-style: none;
+  }
+
+  /* NAV BAR */
+
+  #navbar{
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffe5f0;
+    border-bottom: 1px solid #000000;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  #navbar ul{
+    display: flex;
+    list-style: none;
+  }
+
+  #navbar ul li{
+    margin-left: 1em;
+  }
+
+  #navbar ul li a{
+    text-decoration: none;
+    transition: .5s;
+    font-weight: bold;
+  }
+
+  #navbar ul li a:hover {
+    color: #a9eca2;
+  }
+
+  
+  #logo img {
+    display: flex;
+    height: 50px;
+  }
+
+  #logo p{
+    display: flex;
+    
+  }
+  /*BANNER*/
+  
+  
+  /*HOME*/
+
+  .principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .home{
+    min-height: 100vh;
+    width: 250vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    max-height:60rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#home{
+  height: 100px;
+
+}
+
+
+
+.content{
+  max-width: 44rem;
+  
+  
+    
+}
+
+.home .content h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+.home .content p{
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding: 0;
+  color:#eee;
+}
+
+#botao-home{
+  background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0;
+    margin-bottom:0;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+  
+}
+/*
+#infos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: solid #fff 2px;
+  border-bottom: solid #fff 2px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 21px;
+  margin-top: 40px;
+}*/
+
+#infos b {
+  color: #fff;
+}
+
+article {
+  font-family: 'Indie Flower', cursive;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#texto2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+
+/*CONSTAINER*/
+.container {
+    min-height: 60vh;
+    padding: 2em;
+}
+
+/*MESSAGES*/
+  .message {
+    padding: 1em;
+    color: #000;
+    background-color: #cce5ff;
+    border: 1px solid #b8da;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+    max-width: 60%;
+  }
+
+  /* LOGIN E REGISTRO*/
+  .auth-container {
+    direction: center;
+    max-width: 450px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    }
+
+  .auth-container h2 {
+    
+    margin-bottom: 1em;
+    align-items: center;
+    color: #0a0a0a;
+    padding: 0.3em;
+    width: 100px;
+  }
+
+  .auth-container a {
+    color: #e90d0d;
+  }
+
+  .dashboard{
+    text-align: center;
+  }
+
+  .dashboard h3{
+    color: #fff;
+  }
+
+  .dashboard h2{
+    color: #fff;
+  }
+
+  .container{
+    text-align: center;
+    color: #fff;
+  }
+
+  .form-controler input{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    position: relative;
+    align-items: center;
+    width: 300px;
+    padding: 5px;
+  }
+   
+  .livro-form-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    position: relative;
+    align-items: center;
+
+  }
+ 
+
+  .bt{
+    text-align: center;
+   align-items: center;
+  }
+    
+  .form-control {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  .form-control label {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    width: 300px;
+    margin-bottom: 5px;
+  }
+  
+  form input[type='submit'],
+  .btn {
+    background-color: transparent;
+    color: #000;
+    border: 2px solid #000;
+    padding: 0.5em 1.3em;
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  form input[type='submit']:hover,
+  .btn:hover {
+    background-color: #56afac;
+    color: #fff;
+  }
+
+  /*FORMULARIO*/
+  
+  .livro-form-container a {
+    color: #000;
+  }
+  .livro-form-container a:hover {
+    color: #9ae4e1;
+  }
+  .livro-form-container h1 {
+    margin-bottom: 1em;
+    color: #000;
+    padding: 0.3em;
+
+  }
+  .livro-form-container form {
+    max-width: 30%;
+    margin-top: 1.5em;
+  
+  }
+  
+   /*DASHBOARD*/
+   .title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    
+   }
+
+   .title-container h2 {
+    padding: 10px;
+
+   }
+
+   .title-container h3 {
+    margin-bottom: 1.5em;
+   }
+
+   .dashboard ul {
+    list-style: none;
+   }
+
+   .dashboard li {
+    padding: 12px;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   }
+
+   .dashboard .label {
+    font-weight: bold;
+    color: #000;
+    margin-right: 2em;
+
+   }
+
+   .dashboard .actions {
+    display: flex;
+   }
+
+   .dashboard .actions .btn {
+    color: #000;
+    border-color: #000;
+    margin: 0 0.5em;
+   }
+  /*FOOTER*/
+
+  .footer{
+    height: 150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #000000;
+  }
+
+  .footer span{
+    font-weight: bold;
+    color: #000;
+  }
+#infos{
+  display:flex;
+  height: 90px;
+  padding: 10px;
+  flex-direction: column;
+
+}
+
+#red  {
+  color: #e90d0d;
+
+}
+.pai{
+  margin-top: 25px;
+  justify-content: space-between;
+  
+}
